@@ -18,3 +18,7 @@
     height: 35px;
     animation: imgAnimation 8s linear infinite;
 }
+
+#header-book-btn {
+    margin-right: 10px;
+}

@@ -53,7 +53,7 @@ class Details extends Component {
     render() {
         return (
             <div>
-                <Header btnName="BOOK SHOW"/>
+                <Header headerFor="detail"/>
 
                 <div>
                     <Button onClick={this.backButtonHandler} id="back-btn">

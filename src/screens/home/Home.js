@@ -188,7 +188,7 @@ class Home extends Component {
     render() {
         return (
             <div>   
-                <Header btnName="LOGIN"/>
+                <Header headerFor="home"/>
 
                 <div className="heading">
                     <span>Upcoming Movies</span>

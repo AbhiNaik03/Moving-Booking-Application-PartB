@@ -4,12 +4,32 @@ import logo from '../../assets/logo.svg';
 import Button from '@material-ui/core/Button';
 
 const Header = function(props) {
-    return (
-        <div className="header">
-            <img src={logo} alt="logo-img" id="logo-img"/>
-            <Button variant="contained" color="primary" id="btn">{props.btnName}</Button>
-        </div>
-    )
+    if (props.headerFor === "home") {
+        return (
+            <div className="header">
+                <div>
+                    <img src={logo} alt="logo-img" id="logo-img"/>
+                </div>
+                <div>
+                    <Button variant="contained">LOGIN</Button>
+                </div>
+            </div>
+        )
+    }
+    else if (props.headerFor === "detail") {
+        return (
+            <div className="header">
+                <div>
+                    <img src={logo} alt="logo-img" id="logo-img"/>
+                </div>
+                <div id="header-btn-div">
+                    <Button variant="contained" color="primary" id="header-book-btn">BOOK SHOW</Button>
+                    <Button variant="contained">LOGIN</Button>
+                </div>
+            </div>
+        )
+    }
+    
 }
 
 export default Header;
