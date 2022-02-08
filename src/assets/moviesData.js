@@ -22,7 +22,7 @@ let moviesData = [
                 "last_name": "Brando",
                 "role_type": "ACTOR",
                 "profile_description": "Marlon Brando Jr. was an American actor and film director. He is credited with bringing realism to film acting and helping to popularize the Stanislavski system of acting having studied with Stella Adler in the 1940s. Regarded for his cultural influence on 20th century film, Brando's Academy Award-winning performances include that of Terry Malloy in On the Waterfront (1954) and Don Vito Corleone in The Godfather (1972). Brando was an activist for many causes, notably the civil rights movement and various Native American movements.",
-                "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Marlon_Brando_%28cropped%29.jpg",
+                "profile_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Marlon_Brando_publicity_for_One-Eyed_Jacks.png/220px-Marlon_Brando_publicity_for_One-Eyed_Jacks.png",
                 "wiki_url": "https://en.wikipedia.org/wiki/Marlon_Brando"
             },
             {
@@ -38,7 +38,7 @@ let moviesData = [
     },
     {
         id: "M2",
-        title: "The Dark Anurag",
+        title: "The Dark Knight",
         storyline: "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
         genres: [
             "Action",
@@ -174,7 +174,7 @@ let moviesData = [
                 "last_name": "Rao",
                 "role_type": "ACTOR",
                 "profile_description": "Rajkummar Rao, also known as Rajkumar Yadav, is an Indian actor. He has established a career in Hindi cinema and is the recipient of several awards, including a National Film Award, three Filmfare Awards, and an Asia Pacific Screen Award. He is cited in the media as one of the most talented actors of his generation.",
-                "profile_url": "https://en.wikipedia.org/wiki/Rajkummar_Rao#/media/File:Rajkummar_Rao_World_Premiere_Newton_Zoopalast_Berlinale_2017_02.jpg",
+                "profile_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Rajkumar_Rao_Filmfare_Glamour_and_Style_Awards_2019_%28cropped%29.jpg/220px-Rajkumar_Rao_Filmfare_Glamour_and_Style_Awards_2019_%28cropped%29.jpg",
                 "wiki_url": "https://en.wikipedia.org/wiki/Rajkummar_Rao"
             },
             {

@@ -3,7 +3,7 @@ import './Header.css';
 import logo from '../../assets/logo.svg';
 import Button from '@material-ui/core/Button';
 
-const Header = function(props) {
+export default function Header(props) {
     if (props.headerFor === "home") {
         return (
             <div className="header">
@@ -31,5 +31,3 @@ const Header = function(props) {
     }
     
 }
-
-export default Header;
